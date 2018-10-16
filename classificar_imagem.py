@@ -25,12 +25,12 @@ x = np.expand_dims(x, axis=0)
 images = np.vstack([x])
 classes = model.predict_classes(images, batch_size=10)
 
-if classes[0] == 0:
-    print('Bicicleta.')
+# if classes[0] == 0:
+#    print('Bicicleta.')
 
-if classes[0] == 1:
-    print('Carro.')
+# if classes[0] == 1:
+#    print('Carro.')
 
-if classes[0] == 2:
-    print('Caminhão.')
+# if classes[0] == 2:
+#    print('Caminhão.')
 
