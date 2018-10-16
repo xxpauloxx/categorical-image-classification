@@ -1,0 +1,8 @@
+data
+.env
+__pycache__
+*.pyc
+*.h5
+*.jpg
+*.jpeg
+*.png
